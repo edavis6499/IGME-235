@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Pokemon Finder</title>
+     <link rel="stylesheet" href="styles/main.css">
+     <script src="js/main.js"></script>
+
+
+  
+</head>
+<body>
+<header>
+	<h1>Pokemon Search</h1>
+</header>
+<br>
+<div class="container">
+<div class="widgets">
+	<input id="searchterm" type="text" size="20" maxlength="20" autofocus value="entei" />
+</div>
+
+<div class="widgets">
+
+	<select id="choice">
+		<option value="Type">Type</option>
+		<option value="Pokemon" selected>Pokemon</option>
+		<option value="Abilities">Abilities</option>
+	</select>
+</div>
+
+<div class="widgets">
+	<button type="button" id="search" class="red">Search The Pokemon!</button>
+</div>
+<div class="widgets">
+	<button type="button" id="random" class="black">Get a Random Pokemon!</button>
+</div>
+</div>
+<div id="status">Ready to Search!</div>
+<hr>
+
+<h2>Results</h2>
+<div class="resultsContain">
+	<img src="images/pikachu.jpg" alt="Pokemon" width="300" height="300">
+<div id="content">
+	<p>No data yet!</p>
+</div>
+<img src="images/pikachu.jpg" alt="Pokemon" width="300" height="300">
+</div>
+ 
+
+</body>
+</html>
